@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* quitar scroll vertical */
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+/* fondo colorido */
+section {
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background: linear-gradient(45deg,blue,rgb(255, 38, 0),rgb(255, 208, 0));
+    background-size: 400% 400%;
+    position: relative;
+    animation: cambiar 10s ease-in-out infinite;
+}
+
+
+@keyframes cambiar {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+ /* titulo  */
+ h1 {
+    /* color: rgba(0, 0, 0, 0.719); */
+    color: #fff;
+    font-family: 'Monoton', cursive;
+    font-size: 65px;
+    letter-spacing: 2px;
+
+}
+
+li {
+    font-family: 'Special Elite', cursive;
+}
+
+
+
+
+/* barra de navegacion */
+
+.barra {
+    background-color: transparent;
+}
+
+
+.redes {
+    color: blueviolet;
+}
+
+.redes:hover{
+    color: orangered;
+}
+
+
+/* titulo principal */
+
+.texto-principal{
+    padding:400px;
+    text-align: start;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.719);
+    padding: 3px;
+}
+
+a:hover{
+    color: #fff;
+}
+
+.texto-principal {
+    animation-name: textoAnimado;
+    animation-duration: 5s ;
+}
+
+@keyframes textoAnimado {
+     0%{
+      transform: translateX(100%);
+    }
+
+    100%{
+      transform: translateX(0);
+    }
+
+    0% {
+        opacity: calc(0);
+    }
+
+    25%{
+        opacity: calc(0);
+    }
+}
+
+
