@@ -37,8 +37,7 @@ body{
     color: #fff;
     background: linear-gradient(45deg, #ff0057, #2196f3);
 }
-
-
+/* seccion sobre mi */
 .sobre-mi {
     font-family: 'monoton', cursive;
     padding: 100px;
@@ -47,12 +46,31 @@ body{
     justify-content: center;
 }
 
-.gato{
+.foto-sombra{
     width: 300px;
     border-radius: 15%;
+    border: 1px solid #fff;
 }
 
 .parrafo {
-    margin: 100px;
+    margin: 50px 90px;
+}
+
+.imagenes{
+    border-radius: 10px;
+}
+
+.mi-cv {
+    height: 400px;
+    width: 400px;
+    margin-top: 15px;
+    margin-left: 20%;
+}
+
+.mi-certificado{
+    height: 200px;
+    width: 400px;
+    margin-left: 25px;
+    margin-bottom: 100px;
 }
 
