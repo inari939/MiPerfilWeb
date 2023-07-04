@@ -105,4 +105,27 @@ a:hover{
     }
 }
 
+/* medias */
 
+@media screen and (max-width:910px){
+     
+    .texto-principal {
+        padding: 200px;
+        text-align: start;
+    }
+
+    h1 {
+        font-size: 55px;
+    }
+}
+
+@media screen and (max-width:650px){
+    .texto-principal {
+        padding: 100px;
+        text-align: start;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+}
