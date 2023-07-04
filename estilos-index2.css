@@ -40,10 +40,14 @@ body{
 /* seccion sobre mi */
 .sobre-mi {
     font-family: 'monoton', cursive;
-    padding: 100px;
+    padding: 95px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.titulo {
+    font-size: 65px;
 }
 
 .foto-sombra{
