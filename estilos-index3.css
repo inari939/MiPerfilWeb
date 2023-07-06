@@ -7,6 +7,7 @@
 
 body{
     background-image: linear-gradient(135deg, #667eea 0%, #a82392 100%);
+    background-attachment: fixed;
 } 
 
 h1 {
@@ -27,4 +28,11 @@ h1 {
     justify-content: center;
     width: 500px;
     height: 500px;
+}
+
+.el-span {
+    font-size: 20px;
+    padding-left: 42%;
+    color: #fff;
+    font-family: 'Special Elite', cursive;
 }
