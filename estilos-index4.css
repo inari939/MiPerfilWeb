@@ -50,9 +50,30 @@ h1 {
 a {
     color: #fff;
     text-decoration:none;
+    transition: 1.5s;
+    font-family: 'Special Elite', cursive;
 }
 
 a:hover {
     color: #0313f8;
+    transition: 1s;
 }
 
+/* formulario */
+
+.formulario {
+    padding-left: 70%;
+    margin-top: -15%;
+    font-family: 'Special Elite', cursive;
+    
+}
+
+.mi-boton {
+    background-color: #f56bf5;
+    border-color: #ea55f7;
+}
+
+.mi-boton:hover {
+    background-color: #8f089b;
+    border-color: #8f089b;
+}

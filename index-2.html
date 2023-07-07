@@ -15,6 +15,49 @@
     <title>Sobre mi</title>
 </head>
 <body>
+
+    <!-- barra de navegacion a la derecha -->
+
+    <nav class="navbar transparent fixed-top">
+      <div class="container-fluid">
+        <a class="derechos navbar-brand" href="#"><i class="bi bi-person-circle"></i></a>
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="archivos/alexandra-ramirez(cv4).pdf" target="_blank" download="">Descargar CV</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Mis redes
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="redes dropdown-item" target="_blank" href="https://github.com/inari939">GitHub</a></li>
+                  <li><a class="redes dropdown-item" target="_blank" href="https://www.instagram.com/alex_diana.21/">instagram</a></li>
+                  <li><a class="redes dropdown-item" target="_blank" href="https://www.facebook.com/profile.php?id=100009690882276">Facebook</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="redes dropdown-item" target="_blank" href="https://www.linkedin.com/in/alexandra-ramirez-2972b0207/">LinkedIn</a></li>
+                </ul>
+              </li>
+            </ul>
+           
+          </div>
+        </div>
+      </div>
+    </nav>
+
    
     <section class="sobre-mi">
         <h1 class="titulo">
@@ -22,6 +65,8 @@
         </h1>
 
     </section>
+
+    
 
      <!-- bootstrap -->
      <div class="parrafo clearfix">
@@ -44,7 +89,7 @@
 
         <section>
           <iframe class="mi-cv" src="archivos/alexandra-ramirez(cv4).pdf" frameborder="0"></iframe>
-          <iframe class="mi-certificado" src="archivos/certificado-desarrolloFrontEnd.pdf" frameborder="0"></iframe>
+          <!-- <iframe class="mi-certificado" src="archivos/certificado-desarrolloFrontEnd.pdf" frameborder="0"></iframe> -->
         </section>
 
       </div>

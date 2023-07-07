@@ -65,16 +65,16 @@ body{
 }
 
 .mi-cv {
-    height: 400px;
+    height: 350px;
     width: 400px;
     margin-top: 15px;
-    margin-left: 20%;
+    margin-left: 35%;
 }
 
-.mi-certificado{
+/* .mi-certificado{
     height: 200px;
     width: 400px;
     margin-left: 25px;
     margin-bottom: 100px;
-}
+} */
 

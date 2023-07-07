@@ -32,6 +32,13 @@ section {
     }
 }
 
+/* derechos de autor */
+
+.derechos {
+    font-family:'arial', cursive;
+    font-size: small;
+}
+
  /* titulo  */
  h1 {
     /* color: rgba(0, 0, 0, 0.719); */
