@@ -50,7 +50,8 @@ section {
 }
 
 li {
-    font-family: 'Special Elite', cursive;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-size: 20px;
 }
 
 
@@ -81,12 +82,16 @@ li {
 
 a {
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.719);
+    /* color: rgba(0, 0, 0, 0.719); */
+    color: #fff;
     padding: 3px;
+    transition: 1s;
 }
 
 a:hover{
-    color: #fff;
+    color: black;
+    transition: 1s;
+    
 }
 
 .texto-principal {
@@ -135,4 +140,13 @@ a:hover{
     h1 {
         font-size: 40px;
     }
+}
+
+
+.offcanvas-header{
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+
+.offcanvas-body {
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
 }
