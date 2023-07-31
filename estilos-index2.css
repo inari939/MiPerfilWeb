@@ -71,10 +71,38 @@ body{
     margin-left: 35%;
 }
 
-/* .mi-certificado{
-    height: 200px;
-    width: 400px;
-    margin-left: 25px;
-    margin-bottom: 100px;
-} */
+
+@media screen and (max-width:650px){
+    .titulo {
+        font-size: 40px;
+    }
+
+    .foto-sombra {
+        width: 120px;
+        height: 120px;
+        margin-left: 140px;
+    }
+
+    .mi-cv {
+        width: 200px;
+        height: 250px;
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width:420px){
+        .titulo {
+            font-size: 25px;
+        }
+
+        .foto-sombra {
+            margin-left: 20px;
+        }
+
+        .mi-cv {
+            margin-left: 9px;
+        }
+
+
+}
 
