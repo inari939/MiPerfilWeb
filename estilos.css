@@ -142,6 +142,28 @@ a:hover{
     }
 }
 
+@media screen and (max-width:420px) {
+    .texto-principal {
+        padding: 60px;
+    }
+
+    h1 {
+        font-size:20px;
+    }
+
+    li{
+        font-size: 10px;
+    }
+
+    .navbar-toggler-icon {
+        display: none;
+    }
+
+    .navbar-toggler {
+        height: 20px;
+        background-color: #9f45f3;
+    }
+}
 
 .offcanvas-header{
     background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
