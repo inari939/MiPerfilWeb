@@ -103,6 +103,7 @@ h1 {
 
     .carousel-inner {
         margin-left: 80px;
+        margin-top: 50px;
     }
 
     .navbar-toggler {
@@ -112,5 +113,9 @@ h1 {
 
     .navbar-toggler-icon {
         display: none;
+    }
+
+    .carrusel {
+        margin-top: 20px;
     }
 }
