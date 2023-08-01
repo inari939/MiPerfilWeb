@@ -5,7 +5,7 @@
 
 
 body {
-    background-image: linear-gradient(120deg, #5586f7 0%, #f87074 100%);
+    background-image: linear-gradient(120deg, #2264fdd5 0%, #f54b50a8 100%), url(archivos/img-univeso.jpg);
     background-attachment: fixed;
 }
 /* backgorung-attachment es para que el fondo colorido no se vea cortado por secciones */

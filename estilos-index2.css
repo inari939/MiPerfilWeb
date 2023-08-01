@@ -35,7 +35,7 @@ body{
     justify-content: center; (al sacarle esto, todos los elementos de body ya no se ubican en el medio)
     align-items: center; */
     color: #fff;
-    background: linear-gradient(45deg, #ff0057, #2196f3);
+    background: linear-gradient(45deg, #ff0055e1, #2195f3d0),url(archivos/ing-fondolila.jpg);
 }
 /* seccion sobre mi */
 .sobre-mi {
