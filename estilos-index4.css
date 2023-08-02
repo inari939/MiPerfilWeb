@@ -71,6 +71,7 @@ a:hover {
 }
 
 .mi-boton {
+    color: #fff;
     background-color: #f56bf5;
     border-color: #ea55f7;
 }
@@ -78,8 +79,16 @@ a:hover {
 .mi-boton:hover {
     background-color: #8f089b;
     border-color: #8f089b;
+    color: #a18cd1;
 }
 
+p {
+    color: #fff;
+}
+
+.form-grupo {
+    color: #fff;
+}
 
 textarea {
     padding: 5px;
