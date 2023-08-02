@@ -139,7 +139,8 @@ a:hover{
 
 @media screen and (max-width:650px){
     .texto-principal {
-        padding: 100px;
+        padding-top: 150px;
+        padding-left: 50px;
         text-align: start;
     }
 
@@ -150,15 +151,16 @@ a:hover{
 
 @media screen and (max-width:420px) {
     .texto-principal {
-        padding: 60px;
+        padding-top: 150px;
+        padding-left: 50px;
     }
 
     h1 {
-        font-size:20px;
+        font-size:30px;
     }
 
     li{
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .navbar-toggler-icon {
