@@ -37,7 +37,7 @@ body{
     color: #fff;
     background: linear-gradient(45deg, #ff0055e1, #2195f3d0),url(archivos/ing-fondolila.jpg);
 }
-
+/* el enlace arriba a la derecha para ir a inicio */
 .enlace-volver {
     padding-left: 10px;
     font-size: 15px;
@@ -53,12 +53,12 @@ body{
 .contenedor-enlace {
     padding-top: 10px;
 }
-
+/* enlace para ir hacia la siguiente seccion */
 .ir-a {
     color: #6cadf8;
 }
 
-/* seccion sobre mi */
+/* seccion sobre mi texto*/
 .sobre-mi {
     font-family: 'monoton', cursive;
     padding: 95px;
@@ -92,7 +92,7 @@ body{
     margin-left: 35%;
 }
 
-
+  /* seccion responsive ------------------------------------------------------------------------*/
 @media screen and (max-width:650px){
     .titulo {
         font-size: 40px;
@@ -109,6 +109,7 @@ body{
         height: 250px;
         margin-left: 50px;
     }
+    
 }
 
 @media screen and (max-width:420px){

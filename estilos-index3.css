@@ -80,7 +80,7 @@ h1 {
     font-family: 'Ysabeau Office', sans-serif;
 }
 
-
+/* seccion responsive-------------------------------------------------------- */
 @media screen and (max-width:1236px){
     .carousel-inner {
         width: 500px;
@@ -89,6 +89,9 @@ h1 {
         margin-top: 200px;
         margin-bottom: 100px;
         
+        }
+        .ir-a {
+            margin-left: -20px;
         }
 
 }
@@ -113,6 +116,10 @@ h1 {
         width: 400px;
         height: 400px;
     }
+    .ir-a {
+        margin-left: -20px;
+    }
+
 }
 
 @media screen and (max-width:600px){
@@ -123,6 +130,10 @@ h1 {
 
     h1 {
         font-size: 35px;
+    }
+
+    .ir-a {
+        margin-left: -20px;
     }
 }
 
