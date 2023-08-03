@@ -21,7 +21,7 @@ h1 {
     padding: 50px;
 
 }
-
+/* enlace arriba a la derecha para volver a inicio */
 .enlace-volver {
     font-size: 15px;
     color: #fff;
@@ -30,7 +30,7 @@ h1 {
 .enlace-volver:hover {
     transition: 1s;
 }
-
+/* enlace arriba a la derecha ara ir a la siguiente seccion */
 .ir-a {
     margin-left: -84%;
     color: #6cadf8;
@@ -41,7 +41,7 @@ h1 {
     transition: 1s;
     color: black;
 }
-
+/* texto dentro de la barra de navegacion izquierda */
 .nav-link {
     font-family: 'popins', sans-serif;;
 }
@@ -55,6 +55,16 @@ h1 {
     color: orangered;
 }
 
+.offcanvas-header{
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+
+.offcanvas-body {
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+
+
+/* seccion carrusel */
 .imagenes-carrusel {
     margin: 70px 700px;
     align-items: center;
@@ -68,14 +78,6 @@ h1 {
     padding-left: 42%;
     color: #fff;
     font-family: 'Ysabeau Office', sans-serif;
-}
-
-.offcanvas-header{
-    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
-}
-
-.offcanvas-body {
-    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
 }
 
 
