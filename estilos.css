@@ -52,7 +52,7 @@ section {
 
 li {
     font-family: 'Ysabeau Office', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 /* esto para sacar las pelotitas de los list items */
@@ -64,6 +64,10 @@ li {
 
 
 /* barra de navegacion */
+
+.nav-link {
+    font-family: 'popins', sans-serif;
+}
 
 .barra {
     background-color: transparent;

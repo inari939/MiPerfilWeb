@@ -22,6 +22,39 @@ h1 {
 
 }
 
+.enlace-volver {
+    font-size: 15px;
+    color: #fff;
+}
+
+.enlace-volver:hover {
+    transition: 1s;
+}
+
+.ir-a {
+    margin-left: -84%;
+    color: #6cadf8;
+    text-decoration: none;
+}
+
+.ir-a:hover{
+    transition: 1s;
+    color: black;
+}
+
+.nav-link {
+    font-family: 'popins', sans-serif;;
+}
+
+.redes {
+    color: blueviolet;
+}
+
+.redes:hover {
+    transition: 1s;
+    color: orangered;
+}
+
 .imagenes-carrusel {
     margin: 70px 700px;
     align-items: center;

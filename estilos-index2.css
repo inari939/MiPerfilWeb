@@ -37,6 +37,27 @@ body{
     color: #fff;
     background: linear-gradient(45deg, #ff0055e1, #2195f3d0),url(archivos/ing-fondolila.jpg);
 }
+
+.enlace-volver {
+    padding-left: 10px;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.enlace-volver:hover {
+    transition: 1s;
+    color: black;
+}
+
+.contenedor-enlace {
+    padding-top: 10px;
+}
+
+.ir-a {
+    color: #6cadf8;
+}
+
 /* seccion sobre mi */
 .sobre-mi {
     font-family: 'monoton', cursive;

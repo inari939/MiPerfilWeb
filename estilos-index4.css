@@ -42,6 +42,21 @@ h1 {
     }
 }
 
+
+.enlace-volver {
+    font-size: 15px;
+    color: #fff;
+}
+
+.redes {
+    color: blueviolet;
+}
+
+.redes:hover {
+    transition: 1s;
+    color: orangered;
+}
+
 .enlace-correo {
     padding-left: 25px;
     
@@ -95,7 +110,9 @@ textarea {
     background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
     border: 0;
     border-radius: 8px;
+    height: 150px;
 }
+
 
 .formulario:hover{
     opacity: 100%;
@@ -205,9 +222,33 @@ textarea {
         display: none;
     }
 
-    .formulario {
+    /* .formulario {
         display:none;
+    } */
+
+    .formulario {
+        padding-left: 200px;
+        padding-top: 100px;
     }
+
+    .form-input {
+        width: 100px;
+        height: 20px;
+    }
+
+    .area-texto {
+        width: 70px;
+        height: 70px;
+    }
+
+    .mi-boton {
+        margin-top: 140px;
+    }
+
+    .form-label {
+        font-size: 15px;
+    }
+
 
     .navbar-toggler {
         width: 20px;
