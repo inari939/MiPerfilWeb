@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- iconos de bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Borel&display=swap" rel="stylesheet">
+    <!-- mis estilos -->
+    <link rel="stylesheet" href="estilos-empren.css">
+    <title>¡Maiglass!</title>
+</head>
+<body>
+    <header class="hero">
+        <div class="textos-hero">
+            <h1>Maiglass</h1>
+            <p>creamos los mejores vidrios personalizados</p>
+            <a href="#">¡hablame!</a>
+        </div>
+        <div class="svg-hero" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+    </header>
+
+    
+    <section>
+        <div class="titulo-secundario">
+            <p>Galeria</p>
+        </div>
+           <!-- <span class="linea"></span> -->
+        <picture class="galeria" id="galeria">
+            <a href="#image1"><img src="../archivos/img-empren/img-tomie.jpg" alt=""></a>
+            <a href="#image2"><img src="../archivos/img-empren/img-goyo.jpg" alt=""></a>
+            <a href="#image3"><img src="../archivos/img-empren/img-ahegao.jpg" alt=""></a>
+            <a href="#image4"><img src="../archivos/img-empren/img-death.jpg" alt=""></a>
+            <a href="#image5"><img src="../archivos/img-empren/img-artilugio.jpg" alt=""></a>
+            <a href="#image6"><img src="../archivos/img-empren/img-sailor.jpg" alt=""></a>
+            <a href="#image7"><img src="../archivos/img-empren/img-levi.jpg" alt=""></a>
+            <a href="#image8"><img src="../archivos/img-empren/img-polish.jpg" alt=""></a>
+            <a href="#image9"><img src="../archivos/img-empren/img-pokemon.jpg" alt=""></a>
+            <a href="#image10"><img src="../archivos/img-empren/img-anime.jpg" alt=""></a>
+        </picture>
+   </section>
+<!-- seccion de imagenes, usando :target o sea id="galeria" y hfre="galeria por ejemplo" -------------------------------------------------------------------->
+   <article class="light-box" id="image1">
+     <a href="#image10" class="next"><i class="bi bi-arrow-left"></i></a>
+     <img src="../archivos/img-empren/img-tomie.jpg" alt="poner imagen uno aca"> 
+     <a href="#image2" class="next"><i class="bi bi-arrow-right"></i></a>
+     <a href="#galeria" class="close">X</a>
+   </article>
+
+
+   <article class="light-box" id="image2">
+     <a href="#image1" class="next"><i class="bi bi-arrow-left"></i></a>
+     <img src="../archivos/img-empren/img-goyo.jpg" alt="poner imagen uno aca"> 
+     <a href="#image3" class="next"><i class="bi bi-arrow-right"></i></a>
+     <a href="#galeria" class="close">X</a>
+   </article>
+
+
+   <article class="light-box" id="image3">
+     <a href="#image2" class="next"><i class="bi bi-arrow-left"></i></a>
+     <img src="../archivos/img-empren/img-ahegao.jpg" alt="poner imagen uno aca"> 
+     <a href="#image4" class="next"><i class="bi bi-arrow-right"></i></a>
+     <a href="#galeria" class="close">X</a>
+   </article>
+
+
+   <article class="light-box" id="image4">
+     <a href="#image3" class="next"><i class="bi bi-arrow-left"></i></a>
+     <img src="../archivos/img-empren/img-death.jpg" alt="poner imagen uno aca"> 
+     <a href="#image5" class="next"><i class="bi bi-arrow-right"></i></a>
+     <a href="#galeria" class="close">X</a>
+   </article>
+
+
+   <article class="light-box" id="image5">
+     <a href="#image4" class="next"><i class="bi bi-arrow-left"></i></a>
+     <img src="../archivos/img-empren/img-artilugio.jpg" alt="poner imagen uno aca"> 
+     <a href="#image6" class="next"><i class="bi bi-arrow-right"></i></a>
+     <a href="#galeria" class="close">X</a>
+   </article>
+
+
+   <article class="light-box" id="image6">
+     <a href="#image5" class="next"><i class="bi bi-arrow-left"></i></a>
+     <img src="../archivos/img-empren/img-sailor.jpg" alt="poner imagen uno aca"> 
+     <a href="#image7" class="next"><i class="bi bi-arrow-right"></i></a>
+     <a href="#galeria" class="close">X</a>
+   </article>
+
+
+   <article class="light-box" id="image7">
+     <a href="#image6" class="next"><i class="bi bi-arrow-left"></i></a>
+     <img src="../archivos/img-empren/img-levi.jpg" alt="poner imagen uno aca"> 
+     <a href="#image8" class="next"><i class="bi bi-arrow-right"></i></a>
+     <a href="#galeria" class="close">X</a>
+   </article>
+
+
+   <article class="light-box" id="image8">
+     <a href="#image7" class="next"><i class="bi bi-arrow-left"></i></a>
+     <img src="../archivos/img-empren/img-polish.jpg" alt="poner imagen uno aca"> 
+     <a href="#image9" class="next"><i class="bi bi-arrow-right"></i></a>
+     <a href="#galeria" class="close">X</a>
+   </article>
+
+
+   <article class="light-box" id="image9">
+     <a href="#image8" class="next"><i class="bi bi-arrow-left"></i></a>
+     <img src="../archivos/img-empren/img-pokemon.jpg" alt="poner imagen uno aca"> 
+     <a href="#image10" class="next"><i class="bi bi-arrow-right"></i></a>
+     <a href="#galeria" class="close">X</a>
+   </article>
+
+
+   <article class="light-box" id="image10">
+     <a href="#image9" class="next"><i class="bi bi-arrow-left"></i></a>
+     <img src="../archivos/img-empren/img-anime.jpg" alt="poner imagen uno aca"> 
+     <a href="#image1" class="next"><i class="bi bi-arrow-right"></i></a>
+     <a href="#galeria" class="close">X</a>
+   </article>
+  
+
+<!-- seccion de imagenes -------------------------------------------------------------------------------->
+
+   <span class="linea"></span>
+   <section class="info">
+    <h2>sobre maiglass</h2>
+    <p class="texto-info">Se utiliza la tecnica de glasspaint para la creacion de arte en vidrio, es decir, 
+              se utiliza una impresion en hoja de papel de la imagen a realizar, se pega momentaneamente sobre el vidrio para poder calcar las lineas del dibujo encima
+               y al retirar la hoja del vidrio, se procede a pintar con los acrilicos. Es un proceso que lleva su determinado tiempo segun la complejidad del dibujo ya que
+              se pone mucho enfasis en los detalles de los mismos.</p>
+    </section>
+   
+   <section class="info-2">
+    <span class="linea"></span>
+    <h2 class="titulo-info-2">Dejame tu consulta</h2>
+    <div class="container text-center">
+      <div class="row columnas">
+        <div class="col">
+          <ul class="lista">
+            <!-- primera columna ---------------------->
+            <li>
+              Los vidrios tienen un tamaño de 15x20 cmm
+            </li>
+            <span class="linea"></span>
+            <li>
+              Incluye su soporte
+            </li>
+            <span class="linea"></span>
+            <li>
+              El tiempo estimado de entrega es de 10 dias
+            </li>
+            <span class="linea"></span>
+            <li>
+              El envio a domicilio se cobra a aparte.Consultar zona
+            </li>
+          </ul>
+        </div>
+        <!-- columna de la derecha ---------------------->
+        <div class="col order-5">
+          <ul class="lista">
+               <li>
+                  se puede pasar a retirar en persona en av. mitre 1500, buenos aires, avellaneda
+               </li>
+                <span class="linea"></span>
+               <li>
+                  tambien se puede arreglar un punto de encuentro dentro de la zona de avellaneda
+               </li>
+               <span class="linea"></span>
+               <li>
+                  cualquier duda consultar
+               </li>
+               <span class="linea"></span>
+               
+        </ul>
+        </div>
+        <!-- columna del medio------------------------->
+        <div class="col order-1">
+          <form action="">
+          <div>
+            <label for="nombre" class="texto-info form-item">Nombre</label>
+            <input type="text" name="nombre" id="nombre" class="form-input" placeholder="como te llamas" required>
+          </div>
+
+            <div class="texto-info form-item">
+              <label for="email" type="email" name="email" class="form-label">Tu email</label>
+              <input type="email" name="email" id="email" class="form-input" placeholder="tu correo" required>
+           </div>
+
+           <div class="mb-3 texto-info form-item">
+            <label for="formFileSm" class="form-label">mandame tu dibujo:</label>
+            <input class="form-control form-control-sm" id="formFileSm" type="file" required>
+          </div>
+
+           <div class="area-texto texto-info form-item">
+            <label for="text">tu mensaje</label>
+                <textarea type="email" name="mensaje" id="mensaje" cols="30" rows="10" required></textarea>
+           </div>
+         </form>
+        </div>
+      </div>
+    </div>
+   </section>
+    
+   <span class="linea"></span>
+
+   <section class="seccion-redes">
+        <h2 class="titulo-seguime">seguime en mis redes</h2>
+
+        <div class="redes-contacto">
+          <a href="#"><i class="bi bi-whatsapp"></i> (011) 11-6228-5167</a>
+        </div>
+        <div class="redes-contacto">
+          <a href="#"><i class="bi bi-tiktok"></i> Tik Tok</a>
+        </div>
+        <div class="redes-contacto">
+          <a href="#"><i class="bi bi-instagram"></i> Instagram</a>
+        </div>
+        <div class="redes-contacto">
+          <a href="#"><i class="bi bi-envelope-open"></i> maiiglass@hotmail.com</a>
+        </div>
+
+   </section>
+
+
+
+
+
+
+
+
+
+ <script>
+
+ </script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+</body>
+</html>
