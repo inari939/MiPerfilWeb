@@ -30,8 +30,8 @@ h1 {
 }
 
 .linea {
-    background: rgb(207, 173, 230);
-    height: 3px;
+    background: rgb(153, 152, 153);
+    height: 2px;
     width: 100%;
     display: block;
 }
@@ -255,6 +255,8 @@ h1 {
     background: radial-gradient(#8a0202,#0515f7 );
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    /* la consola me pedia que argeue la propieda de aca abajo si es que uso la propiedad de arriba */
+    background-clip: transparent;
 }
 
 .redes-contacto a:hover {
