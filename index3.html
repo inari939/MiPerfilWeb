@@ -74,36 +74,33 @@
         </h1>
     </section>
     
-    <!-- carrusel -->
-    <section class="carrusel">
+    <!-- slider--------------------------------  -->
         
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="imagenes-carrusel carousel-inner">
-              <div class="carousel-item active">
-                <a href="archivos-html/index-focus.html" target="_blank" rel="noopener noreferrer"><img src="archivos/img-focus.png" class="d-block w-100" alt="proyecto 'focus' pagina web"></a>
-              </div>
-              <div class="carousel-item">
-                <a href="archivos-html/index-app.html" target="_blank" rel="noopener noreferrer"><img src="archivos/img-checkpoint2.png" class="d-block w-100" alt="proyecto 'checkPoint' pagina web"></a>
-              </div>
-              <div class="carousel-item">
-                <a href="archivos-html/index-plantilla.html" target="_blank" rel="noopener noreferrer"><img src="archivos/img-plantilla.png" class="d-block w-100" alt="proyecto pagina plantilla"></a>
-              </div>
-              <div class="carousel-item">
-                <a href="archivos-html/index-empren.html" target="_blank" rel="noopener noreferrer"><img src="archivos/img-empren-carrusel.png" class="d-block w-100" alt="proyecto pagina maiglass"></a>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
 
-          <span class="el-span">haz click sobre cada imagen </span>
-    </section>
+        <div class="container-slider">
+          <div class="container">
+               <input type="radio" name="slider" id="item-1" checked>
+               <input type="radio" name="slider" id="item-2">
+               <input type="radio" name="slider" id="item-3">
+
+               <div class="cards">
+                <label class="card" for="item-1" id="selector-1">
+                  <img src="archivos/img-empren-carrusel.png" alt="">
+                  <button type="button" class="btn btn-dark"><a href="archivos-html/index-empren.html" target="_blank"><legend>maiglass (pagina web)</legend></a></button>
+                </label>
+                <label class="card" for="item-2" id="selector-2">
+                  <img src="archivos/img-focus.png" alt="">
+                  <button type="button" class="btn btn-dark"><a href="archivos-html/index-focus.html" target="_blank"><legend>focus (diseño)</legend></a></button>
+                </label>
+                <label class="card" for="item-3" id="selector-3">
+                  <img src="archivos/img-plantilla.png" alt="">
+                  <button type="button" class="btn btn-dark"><a href="archivos-html/index-plantilla.html" target="_blank"><legend>portafolio 1 (plantilla)</legend></a></button>
+                </label>
+               </div>
+          </div>
+        </div>
+    
+    
 
 
 
