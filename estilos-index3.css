@@ -123,6 +123,12 @@ img {
     font-family: 'popins', sans-serif;
 }
 
+
+.btn:hover {
+    background-color: rgb(167, 128, 240);
+}
+
+
 #item-2:checked ~ .cards #selector-1,
 #item-1:checked ~ .cards #selector-3,
 #item-3:checked ~ .cards #selector-2 {
