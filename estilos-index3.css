@@ -148,6 +148,15 @@ img {
     z-index: 1;
 }
 
+.titulo-secundario {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+
+
+
 /* seccion responsive-------------------------------------------------------- */
 @media screen and (max-width:1236px){
     .carousel-inner {
