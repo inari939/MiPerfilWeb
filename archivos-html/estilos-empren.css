@@ -30,7 +30,8 @@ h1 {
 }
 
 .linea {
-    background: rgb(153, 152, 153);
+    /* background: rgb(153, 152, 153); */
+    background: #242323;
     height: 2px;
     width: 100%;
     display: block;
@@ -165,12 +166,55 @@ h1 {
 }
 
 
-
+/* 
 .info {
     padding-top: 50px;
     font-size: 40px;
     padding-left: 70px;
     
+} */
+
+/* .info {
+    border: 2px solid #fafafa10;
+    background: #fafafa10;
+    backdrop-filter: blur(0.4rem);
+} */
+
+.background-container {
+    height: 500px;
+    background: url(../archivos/img-empren/img-fondo-texto.jpg), no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.card-container {
+    width: 45rem;
+    height: 25rem;
+    border: 2px solid #fafafa10;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.texto-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    color: #fff;
+}
+
+.texto-tecnica {
+    color: #2c2b2b;
+    padding: 50px;
+    font-size: 20px;
+
+}
+
+.glass-effect {
+    background: #0c0c0c10;
+    backdrop-filter: blur(0.3rem);
+    -webkit-backdrop-filter: blur(0.3rem);
 }
 
 .info h2 {
@@ -179,13 +223,13 @@ h1 {
     padding-bottom: 20px;
 }
  .info-2 {
-    background-image: linear-gradient(to right, #eea2a28f 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d88a 100%), url(../archivos/img-estrellas4.jpg);
+    background-image: linear-gradient(to right, #533952c0 0%, #8946e04f 19%, #ba57e16c 42%, #6037ad7e 79%, #3d636d8a 100%);
  
  }
 
-.texto-info {
+/* .texto-info {
     font-size: 20px;
-}
+} */
 
 /* columnas -------------------------------------------*/
 .titulo-info-2 {
@@ -196,9 +240,13 @@ h1 {
     padding-bottom: 50px;
     color: rgba(59, 58, 59, 0.658);
 }
+.text-center {
+    padding-bottom: 85px;
+}
+
 
 .columnas {
-    background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+    background-image: linear-gradient(to right, #b14ef3a1 0%, #5c19f7c9 19%, #9e57e1 42%, #864cf3 79%, #967ad8 100%);
     border-radius: 20px;
     height: 500px;
 }
@@ -217,13 +265,33 @@ h1 {
 
 .form-item textarea {
     width: 300px;
-    height: 200px;
+    height: 150px;
     border-radius: 15px;
+}
+
+.boton-enviar {
+    width: 170px;
+    border-radius: 5px;
+    background-color: #9ee442b7;
+    border-color: #368140;
+    border-style: none;
+    color: #414040;
+    transition: .5s;
+    font-family: 'popins', cursive;
+}
+
+.boton-enviar:hover {
+    color: #242323;
+    background-color: #368140;
+    border-style: none;
+    transition: .5s;
+    width: 140px;
+    font-family: 'popins', cursive;
 }
 
 
 .seccion-redes {
-    background-image: linear-gradient(to right, #eea2a29c 0%, #bbc1bf94 19%, #57c5e1ad 42%, #b49fdab9 79%, #7ac5d8 100%), url(../archivos/img-empren/img-sailor.jpg);
+    background-image: linear-gradient(to right, #e5a2ee9c 0%, #c081eb94 19%, #245237ad 42%, #9a6decb9 79%, #646cd8 100%), url(../archivos/img-empren/img-sailor.jpg);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;

@@ -63,101 +63,69 @@ h1 {
     background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
 }
 
-/* slider 3D --------------------------------------------------*/
-
-.container-slider {
-    max-width: 1000px;
+/*inicio efecto vidrio */
+.background-container {
     height: 500px;
-    margin: auto;
+    background-size: cover;
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 30px 10px;
 }
 
-input[type=radio] {
-    display: none;
-    /* display: flex;
-    padding-top: 500px; */
-}
-
-.container {
-    width: 100%;
-    height: 100%;
-    max-width: 800px;
-    max-height: 600px;
-    transform-style: preserve-3d;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.cards {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-
-.card {
-    position: absolute;
-    width: 60%;
-    height: 100%;
-    left: 0;
-    right: 0;
-    margin: auto;
-    cursor: pointer;
-    transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-img {
-    width: 100%;
-    height: 100%;
+.card-container {
+    width: 80rem;
+    height: 80rem;
+    border: 2px solid #fafafa10;
+    margin: 0 auto;
     border-radius: 10px;
-    object-fit: cover;
 }
 
-.btn a {
-    text-decoration: none;
-    color: #f4f0f79d;
-    font-family: 'popins', sans-serif;
-}
-
-
-.btn:hover {
-    background-color: rgb(167, 128, 240);
-}
-
-
-#item-2:checked ~ .cards #selector-1,
-#item-1:checked ~ .cards #selector-3,
-#item-3:checked ~ .cards #selector-2 {
-    transform: translateX(-40%) scale(0.8);
-    opacity: 0.6;
-    z-index: 0;
-}
-
-
-#item-3:checked ~ .cards #selector-1,
-#item-1:checked ~ .cards #selector-2,
-#item-2:checked ~ .cards #selector-3 {
-    transform: translateX(40%) scale(0.8);
-    opacity: 0.6;
-    z-index: 0;
-}
-
-
-#item-1:checked ~ .cards #selector-1,
-#item-2:checked ~ .cards #selector-2,
-#item-3:checked ~ .cards #selector-3 {
-    transform: translateX(0) scale(1);
-    z-index: 1;
-}
-
-.titulo-secundario {
+.texto-card {
     display: flex;
-    align-self: center;
+    align-items: center;
     justify-content: center;
+    padding-top: 50px;
+    color: #fff;
+    text-transform:uppercase;
+    padding: 50px;
+}
+
+.glass-effect {
+    background: #0c0c0c10;
+    backdrop-filter: blur(0.3rem);
+    -webkit-backdrop-filter: blur(0.3rem);
+}
+
+/* proyectos y diseños */
+
+.titulo-proyectos {
+    padding-bottom: 10px;
+    padding-top: 60px;
+}
+
+.proyecto {
+    height: 500px;
+    padding: 60px;
+}
+
+.botones-proyectos {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.boton-proyecto{
+    background-color: #6E36E6;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
+    color: rgba(157, 159, 163, 0.87);
+    transition: .5s;
+}
+
+.boton-proyecto:hover {
+    box-shadow: 0 0 10px 5px white;
+    transition: .5s;
+    color: #fff;
 }
 
 
