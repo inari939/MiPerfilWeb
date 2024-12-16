@@ -1,2 +1,2 @@
 # MiPerfilWeb
-en esta pagina podras ver informacion acerca de mi perfil como programadora. 
+Este es mi portafolio en curso, con diseños que aprendí a hacer con css y quise aplicarlos acá. 
